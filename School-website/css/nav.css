@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,300&family=Pirata+One&family=Titan+One&display=swap");
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+a.link {
+  color: #000;
+  text-decoration: none;
+  justify-self: center;
+  font-size: 25px;
+  padding: 3px 7px;
+  border: 1px solid transparent;
+}
+a.link:hover {
+  background-color: #1a659e;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 23px;
+}
+#logo {
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Pirata One", cursive;
+  font-family: "Titan One", cursive;
+  font-size: 20px;
+}
+
+.navbar-toggler {
+  color: #000;
+}
+.btn-black {
+  color: #000;
+}
+
+.my-nav {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
